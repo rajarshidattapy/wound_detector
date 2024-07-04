@@ -29,7 +29,7 @@ safety_settings = [
   }
 ]
 
-genai.configure(api_key = "AIzaSyCi0mbXfp0uEBZpK7n-YnqR9tXT0tyXSM0")
+genai.configure(api_key = "API key")
 
 model = genai.GenerativeModel(model_name = "gemini-pro-vision",
                               generation_config = generation_config,
